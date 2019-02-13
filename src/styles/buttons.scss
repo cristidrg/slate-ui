@@ -1,0 +1,22 @@
+@import './colors.scss';
+@import './typography.scss';
+
+.cta {
+  @extend .font-sz-copy1;
+
+  display: inline-block;
+  text-decoration: none;
+  background-color: $gray-2;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+
+  width: calc(100% - 50px);
+  text-align: center;
+
+  @media only screen and (min-width: 769px) {
+    width: auto;
+    text-align: left;
+  }
+}

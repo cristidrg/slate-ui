@@ -1,0 +1,10 @@
+
+@mixin col($col, $sum: 12, $gap: 1em, $first: false, $last: false) {
+  width: 100%;
+  // padding-left: if($first, 0, $gap);
+  // padding-right: if($last, 0, $gap);
+
+  @media only screen and (min-width: 769px) {
+    width: percentage($col/$sum);
+  }
+}

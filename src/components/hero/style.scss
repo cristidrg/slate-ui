@@ -1,15 +1,4 @@
-@import './grid.scss';
-@import './__reset.scss';
-@import './typography.scss';
-@import './buttons.scss';
-@import './colors.scss';
-
-$col-width: 100%/12;
-
-html {
-  font-family: 'Arial';
-  font-weight: 400;
-};
+//TODO: Add webpack src @ symbol on import
 
 .slt-ui__hero {
   @include col(12);
